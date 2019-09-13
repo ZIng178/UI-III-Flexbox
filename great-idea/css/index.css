@@ -59,8 +59,80 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+	letter-spacing: 1px solid red ;
+	text-decoration : none;
     margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.navbar{
+	display : flex;
+	justify-content: space-between;
+	}
+.navbar a {
+	text-decoration : none;
+	color: gray;
+}
+
+
+.left {
+	 margin-top : 60px;
+ }
+
+ .main {
+	 display :flex;
+	 justify-content:space-evenly;
+	 font-size:90px;
+	 flex-wrap : wrap;
+	 text-align:center;
+	 
+	
+ }
+ 
+ button {
+	 font-size:16px;
+	 background-color: white;
+	 padding :10px;
+	 margin-bottom: 30px;
+	 
+   }
+
+ .circle {
+	 margin-top: 20px;
+	 
+ }
+
+
+ .mid {
+	 display: flex;
+	 text-decoration : none;
+	 padding: 10px;
+ }
+
+ .middle-img {
+	 display : flex;
+	 padding : 10px;
+	 flex-wrap: wrap;
+	 width:99%;
+ }
+
+ .Mid{
+	 display: flex;
+	 justify-content: space-evenly;
+	 padding:10px;
+ }
+ 
+ .copyright{
+	 display: flex;
+	 text-decoration : none; solid black;
+	 justify-content: center;
+	 margin-top: 10px;
+ }
+
+ footer{
+	margin-top:20px;
+}
+
+
+ 
